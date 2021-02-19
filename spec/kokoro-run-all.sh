@@ -35,6 +35,7 @@ do
   fi
 done
 
+
 set -x -e -u -o pipefail
 
 SCRIPT_DIRECTORY="$(dirname "$(realpath "$0")")"
